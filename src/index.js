@@ -5,20 +5,17 @@ import Fuse from 'fuse.js';
 
 const styles = {
   searchBoxStyle: {
-    border: '1px solid #eee',
-    borderRadius: 2,
     padding: '8px 10px',
     lineHeight: '24px',
     width: '100%',
     outline: 'none',
     fontSize: 16,
-    color: '#666',
+    color: 'black',
     boxSizing: 'border-box',
     fontFamily: 'inherit',
   },
   searchBoxWrapper: {
     padding: '4px',
-    boxShadow: '0 4px 15px 4px rgba(0,0,0,0.2)',
     borderRadius: 2,
     backgroundColor: '#fff',
   },
